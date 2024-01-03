@@ -1,0 +1,27 @@
+/* Estilo para el fondo de la página */
+body {
+    background-color: #CCCCCC !important; /*/
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el botón de la flor */
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#descargarButton {
+    width: 180px;
+    height: 180px;
+    background-image: url('florbotonamarilla.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: none;
+    cursor: pointer;
+    background-color: transparent; /*  */
+}
+}
